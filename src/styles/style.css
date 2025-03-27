@@ -104,7 +104,9 @@ h1{
     gap: 136px;
     padding: 25px 0px;
     margin-top: 16px;
+    
 }
+
 
 /* ---- FIM OUR CLIENTS ---- */
 
@@ -167,3 +169,50 @@ h1{
     margin-top: 8px;
 }
 /* ---- FIM MANAGE SYSTEM ---- */
+
+/* ---- PIXEL GRADE---- */
+
+.pixel-grade{
+    /* border: 1px solid;  */
+    height: 433px;
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+    align-items: center;
+
+}
+
+.pixel-content {
+    justify-content: center;
+    width: 661px;
+    height: 268px;
+}
+
+.pixel-content h2{
+    width: 601px;
+    height: 88px;
+}
+
+.pixel-content p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.pixel-content button{
+    background-color: var(--color-primary);
+    border-radius: 3px;
+    margin-top: 32px;
+    padding: 14px 32px;
+    color: var(--color-neutral-white);
+    border-radius: 4px;
+}
+
+.pixel-content button:hover{
+transform: translateY(-8px);
+}
+
+
+
+/* ---- FIM PIXEL GRADE ---- */
+
+
