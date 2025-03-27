@@ -107,6 +107,13 @@ h1{
     
 }
 
+.logo-clients img:hover {
+  
+    transform: translateY(-8px);
+    transition:500ms;
+}
+
+
 
 /* ---- FIM OUR CLIENTS ---- */
 
@@ -182,7 +189,7 @@ h1{
 
 }
 
-.pixel-content {
+.pixel-content  {
     justify-content: center;
     width: 661px;
     height: 268px;
@@ -200,11 +207,11 @@ h1{
 
 .pixel-content button{
     background-color: var(--color-primary);
-    border-radius: 3px;
+    border-radius: 4px;
     margin-top: 32px;
     padding: 14px 32px;
     color: var(--color-neutral-white);
-    border-radius: 4px;
+    transition: transform 1s;
 }
 
 .pixel-content button:hover{
