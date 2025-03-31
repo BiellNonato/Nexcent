@@ -274,4 +274,39 @@ imformations-Itens{
 
 /* ---- FIM BUSINESS ---- */
 
+/* ---- DESIGN ---- */
+
+.design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 46px;
+}
+
+.design h2{
+ font-size: 36px;
+ width: 601px;
+}
+
+.design p{
+    font-size: 14px;
+    margin-top: 16px;
+    width: 601px;
+}
+
+
+.design button{
+    color: var(--color-neutral-silver);
+    background: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: var(--color-primary);
+    margin-top: 32px;
+}
+
+
+
+/* ----  FIM DESIGN ---- */
+
 
