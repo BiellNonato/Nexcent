@@ -222,4 +222,56 @@ transform: translateY(-8px);
 
 /* ---- FIM PIXEL GRADE ---- */
 
+/* ---- BUSINESS ---- */
+.business{
+    display: flex;
+    margin: 48px 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-neutral-silver);
+    gap: 204px;
+    padding: 64px 0px;
+
+}
+
+.business-content h2{
+    width: 390px;
+
+}
+
+.business-content h2 span{
+    color: var(--color-primary);
+}
+
+.business-content p{
+    margin-top: 8px;
+    color: #18191F;
+}
+
+.business-statistic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+.business-Itens{
+    display: flex;
+    margin-top: 40px;
+    gap: 16px;
+}
+
+.business-Itens img{
+    width: 48px;
+
+}
+
+imformations-Itens{
+    text-align: start;
+
+}
+
+
+
+/* ---- FIM BUSINESS ---- */
+
 
