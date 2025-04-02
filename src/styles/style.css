@@ -309,4 +309,132 @@ imformations-Itens{
 
 /* ----  FIM DESIGN ---- */
 
+/* ----  CUSTOMER ---- */
+.customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 78px;
+    margin-top: 33px;
+    padding: 32px 0px;
+    background-color: var(--color-neutral-silver);
+}
+
+.customer-content p{
+    width: 748px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.customer-content h2{
+    color: var(--color-primary);
+    font-size: 20px;
+    margin-bottom: 8px;
+    
+}
+
+ .customer-content p :nth-of-type(2){
+    color: var(--color-neutral-L_grey); 
+ }
+
+ .customer-container{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.customer-itens{
+    display: flex;
+    gap: 41px;
+}
+
+.customer-itens img{
+    width: 48px;
+}
+
+.customer-navigation a{
+    display: flex;     
+    text-decoration: none;
+    gap: 8px;
+}
+
+.customer-navigation a p{
+    color: var(--color-primary);
+    margin: 0;    
+}
+
+/* ----  CARING MARKETING ---- */
+
+.caring-marketing{
+  text-align: center;  
+}
+
+.caring-marketing h2{
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+
+.caring-marketing-p{
+    margin-top: 8px;
+    width: 628px;
+    margin: 0 auto;
+
+}
+
+.caring-marketing-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.caring-cards{
+    width: 368px;
+    margin-top: 16px;
+    position: relative;
+}
+
+.caring-cards-content{
+    left: 25px;
+    box-sizing: border-box;
+    background-color: var(--color-neutral-silver);
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 3px rgba(171, 190, 209, 0.4);
+    width: 317px;
+    padding: 16px;
+    position: absolute;
+    bottom: -53px
+    
+    
+}
+
+.caring-cards-content h3{
+    font-size: 20px;
+    color: var(--color-neutral-grey);
+}
+
+.caring-cards-content a{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: center;
+    gap: 8px;
+    color: var(--color-primary);
+    font-weight: bold;
+    margin-top: 24px
+    
+    
+    
+}
+
+.caring-cards-content a p{
+    color: var(--color-primary);
+
+}
+
+
+
+
+
+/* ----  FIM MARKETING ---- */
 
