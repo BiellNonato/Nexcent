@@ -314,14 +314,16 @@ imformations-Itens{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 78px;
-    margin-top: 33px;
     padding: 32px 0px;
+    gap: 78px;
     background-color: var(--color-neutral-silver);
 }
 
+.customer-content{
+    width: 748px;    
+}
+
 .customer-content p{
-    width: 748px;
     line-height: 1.5;
     margin-bottom: 16px;
 }
@@ -330,14 +332,13 @@ imformations-Itens{
     color: var(--color-primary);
     font-size: 20px;
     margin-bottom: 8px;
-    
 }
 
- .customer-content p :nth-of-type(2){
-    color: var(--color-neutral-L_grey); 
- }
+.customer-content p:nth-of-type(2){
+    color: var(--color-neutral-L_grey);    
+}
 
- .customer-container{
+.customer-container{
     display: flex;
     gap: 32px;
     align-items: center;
@@ -438,3 +439,145 @@ imformations-Itens{
 
 /* ----  FIM MARKETING ---- */
 
+/* ------------------------------ PELLENTESQUE ------------------------------ */ 
+
+.pellentesque{
+    text-align: center;
+    background-color: var(--color-neutral-silver);
+    margin-top: 95px;
+    padding: 32px 0;
+}
+
+.pellentesque a{
+    text-decoration: none;
+}
+
+.pellentesque h2{
+    font-size: 64px;
+    width: 670px;
+    margin: 0 auto;
+    padding: 32px 0px;
+}
+
+.pellentesque button{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 8px;    
+}
+
+/* ------------------------------ FIM PELLENTESQUE ------------------------------ */ 
+
+/* ---------FOOTER ------- */
+
+
+.footer{
+    display: flex;
+    gap: 284px;
+    background-color: #18191f;
+   display: flex;
+   justify-content: center;
+   padding: 64px 0;
+}
+
+
+
+.Copyright{
+    margin: 40px 0;
+}
+
+.Copyright p{
+    color: var(--color-neutral-silver);
+}
+.Copyright p :nth-last-of-type(1){
+  margin-bottom: 8px;
+}
+
+
+.footer-socials{
+    display: flex;
+    gap: 16px;
+}
+
+.social-icons{
+    background-color: #3C474C;
+    padding: 7.47px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons:hover{
+    transform: translateY(-10px);
+}
+
+.footer-navigation{
+    display: flex;
+    gap: 97px;
+}
+
+.footer-navigation h2{
+    margin-bottom: 24px;
+    font-size: 20px;
+    color: var(--color-neutral-white);
+}
+
+.footer-links{
+    list-style: none;
+    font-size: 14px;
+}
+
+.footer-item{
+    color: var(--color-neutral-silver);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+    transition: 0.4s;
+
+}
+
+.footer-item:hover{
+    color: var(--color-primary);
+    transform: translateX(10px);
+}
+
+.footer-container form{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.footer-container form input{
+    padding: 10px;
+    border-radius: 8px 0 0 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #D9DBE1;
+    outline: none;
+
+}
+
+.footer-container form input::placeholder{
+    color: #D9DBE1;
+}
+
+.stay-button{
+    padding: 8.5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stay-button:hover{
+    background-color: var(--color-primary);
+}
+
+
+
+
+
+
+/* ---------FIM FOOTER ------- */ 
