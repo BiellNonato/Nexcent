@@ -47,7 +47,7 @@ Nexcent
 <!-- EXEMPLO DE LAYOUT: -->
 ## 🎨 Layout
 
-![Web1](https://github.com/gabrielNT7/Nexcent/blob/main/src/assets/img/Thumbnail.png
+![Web1](https://github.com/gabrielNT7/Nexcent/blob/main/src/assets/img/Thumbnail.png)
 
 ---
 
